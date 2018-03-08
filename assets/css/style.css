@@ -1,0 +1,40 @@
+body {
+  background-image: url("../../assets/images/train_Saturn.jpg");
+  background-repeat: repeat;
+}
+
+thead {
+  background-color: lightgrey;
+}
+
+.container {
+  width: 35%;
+}
+
+#jumbo {
+  background-color: rgb(73, 8, 120);
+  color: white;
+  height: 175px;
+}
+
+#panel-heading {
+  background-color: rgb(73, 8, 120);
+  color: white;
+  font-size: 19px;
+}
+
+#panel-body {
+  border: rgb(73, 8, 120) 2px solid;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+td {
+	color: rgb(73, 8, 120);
+	font-weight: bold;
+}
+
+.label-text {
+	background-color: lightgrey;
+	padding: .25em;
+}
