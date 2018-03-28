@@ -9,7 +9,8 @@ $(function() {
   };
 	// initialize app
   firebase.initializeApp(config);
-  var database = firebase.database();
+	var database = firebase.database();
+	
   $("#addTrainBtn").on("click", function() {
     // take user input
     var trainName = $("#trainNameInput")
